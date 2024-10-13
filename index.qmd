@@ -1,0 +1,38 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "img/ProfilePic.jpeg"
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/AlixMorales
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/alix-morales-83911324b/
+    - icon: envelope
+      text: Email
+      href: "mailto:mail.amora38@emory.edu"  
+---
+
+::: {#about-block}
+:::
+
+# Hi, I am Alix Morales!
+
+As a junior Applied Mathematics and Statistics major at Emory University, I'm passionate about leveraging data and diverse thinking to drive insights and innovation. With a mathematical background and hands-on experience in machine learning and data science, I've had the opportunity to work on various projects, including brain segmentation research using PyTorch and analyzing NFL injury patterns through data analysis.
+
+My technical skills span shell scripting, R, Python, SQL, and Java, with emerging expertise in PyTorch and scikit-learn. I've applied these skills in various roles, from a Machine Learning Research Assistant position through Emory University's Woodruff School of Nursing to a Data Science Internship at Flock Specialty Finance, where I processed and modeled over a million data entries.
+
+As a QuestBridge Scholar and HSF 2024 STEM Summit Scholar, I'm committed to advocating for diverse perspectives in tech and continuous learning. I'm eager to connect with professionals in data science, machine learning, and data engineering to explore how we can bring much needed diverse perspectives into the world of analytics and machine learning.
+
+On this website, you will find a selection of my projects. You will also find a blog where I publish news, updates, and anything I find interesting in the world of data. I intend to make this a place where I can share my journey in data and showcase my work in a portfolio.
+
+Please feel free to [contact me](mailto:mail.amora38@emory.edu) if you have any questions or would like to discuss potential projects.
+
+```{=html}
+<div  style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">View the tutorial for this template (+ download link)</a>
+</div>
+```
+
