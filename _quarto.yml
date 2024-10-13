@@ -17,9 +17,9 @@ website:
     left:
       - text: "Projects"
         href: projects/index.qmd
-      - text: "Resume"
-        href: photography/index.qmd
       - text: "Blog"
+        href: photography/index.qmd
+      - text: "Resume"
         href: cv/index.qmd
     
     # your social media handles
