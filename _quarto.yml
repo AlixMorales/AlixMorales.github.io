@@ -20,7 +20,7 @@ website:
       - text: "Blog"
         href: photography/index.qmd
       - text: "Resume"
-        href: cv/index.qmd
+        href: resume/index.qmd
     
     # your social media handles
     right:
@@ -39,8 +39,6 @@ website:
     location: navbar
     type: textbox
   page-footer: 
-    left: |
-      <span class="faux-block">&#169; 2023 Marvin Schmitt CC BY-SA 4.0</span>
     center: |
       <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
     right: |

@@ -9,9 +9,9 @@
   {
     "objectID": "photography/index.html",
     "href": "photography/index.html",
-    "title": "Photography",
+    "title": "Data and More!",
     "section": "",
-    "text": "As a wizard and scholar of Middle-earth, I have been studying the magic of the natural world for centuries. Through my self-portraits, I aim to capture the essence of my own being and reflect on my own journey through time. Each photograph is a reflection of my own experiences and emotions. Through my photography, I hope to offer a glimpse into my life as a scholar and adventurer, and inspire others to reflect on their own journeys through the world.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView the tutorial for this template (+ download link)"
+    "text": "Here you will find any posts I make regarding data topics that I find interesting."
   },
   {
     "objectID": "projects/index.html",
@@ -32,13 +32,20 @@
     "href": "projects/index.html#the-history-of-the-war-of-the-ring",
     "title": "Projects",
     "section": "The History of the War of the Ring",
-    "text": "The History of the War of the Ring\n\narXiv Preprint | Code\nI am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth’s history and provide valuable insights into the motivations and actions of the various players involved.\n\nView the tutorial for this template (+ download link)"
+    "text": "The History of the War of the Ring\n\narXiv Preprint | Code\nI am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth’s history and provide valuable insights into the motivations and actions of the various players involved."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Hi, I am Alix Morales!",
     "section": "",
-    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nHi, I am Alix Morales!\nAs a junior Applied Mathematics and Statistics major at Emory University, I’m passionate about leveraging data and diverse thinking to drive insights and innovation. With a mathematical background and hands-on experience in machine learning and data science, I’ve had the opportunity to work on various projects, including brain segmentation research using PyTorch and analyzing NFL injury patterns through data analysis.\nMy technical skills span shell scripting, R, Python, SQL, and Java, with emerging expertise in PyTorch and scikit-learn. I’ve applied these skills in various roles, from a Machine Learning Research Assistant position through Emory University’s Woodruff School of Nursing to a Data Science Internship at Flock Specialty Finance, where I processed and modeled over a million data entries.\nAs a QuestBridge Scholar and HSF 2024 STEM Summit Scholar, I’m committed to advocating for diverse perspectives in tech and continuous learning. I’m eager to connect with professionals in data science, machine learning, and data engineering to explore how we can bring much needed diverse perspectives into the world of analytics and machine learning.\nOn this website, you will find a selection of my projects. You will also find a blog where I publish news, updates, and anything I find interesting in the world of data. I intend to make this a place where I can share my journey in data and showcase my work in a portfolio.\nPlease feel free to contact me if you have any questions or would like to discuss potential projects.\n\nView the tutorial for this template (+ download link)"
+    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nHi, I am Alix Morales!\nAs a junior Applied Mathematics and Statistics major at Emory University, I’m passionate about leveraging data and diverse thinking to drive insights and innovation. With a mathematical background and hands-on experience in machine learning and data science, I’ve had the opportunity to work on various projects, including brain segmentation research using PyTorch and analyzing NFL injury patterns through data analysis.\nMy technical skills span shell scripting, R, Python, SQL, and Java, with emerging expertise in PyTorch and scikit-learn. I’ve applied these skills in various roles, from a Machine Learning Research Assistant position through Emory University’s Woodruff School of Nursing to a Data Science Internship at Flock Specialty Finance, where I processed and modeled over a million data entries.\nAs a QuestBridge Scholar and HSF 2024 STEM Summit Scholar, I’m committed to advocating for diverse perspectives in tech and continuous learning. I’m eager to connect with professionals in data science, machine learning, and data engineering to explore how we can bring much needed diverse perspectives into the world of analytics and machine learning.\nOn this website, you will find a selection of my projects. You will also find a blog where I publish news, updates, and anything I find interesting in the world of data. I intend to make this a place where I can share my journey in data and showcase my work in a portfolio.\nPlease feel free to contact me if you have any questions or would like to discuss potential projects."
+  },
+  {
+    "objectID": "resume/index.html",
+    "href": "resume/index.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Below is an embedded view of my current resume. You can also download it using the link below.\n\n\n  \n     Download current Resume"
   }
 ]
