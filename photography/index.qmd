@@ -1,7 +1,0 @@
----
-title: "Data and More!"
----
-
-Here you will find any posts I make regarding data topics that I find interesting.
-
-

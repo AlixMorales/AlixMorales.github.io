@@ -1,0 +1,25 @@
+---
+title: "Getting Started with Machine Learning in Healthcare"
+author: "Alix Morales"
+date: "2024-10-15"
+categories: [machine learning, healthcare, research]
+image: "thumbnail.jpg"
+description: "Exploring the applications of machine learning in medical imaging and patient care."
+---
+
+## Introduction
+
+[This is a placeholder for your blog post content]
+
+Machine learning is revolutionizing healthcare in unprecedented ways. From diagnostic imaging to personalized treatment plans, the intersection of data science and medicine offers exciting opportunities for innovation.
+
+## Key Points to Cover
+
+- Applications in medical imaging
+- Predictive analytics for patient outcomes
+- Ethical considerations in healthcare AI
+- Future directions in the field
+
+## Conclusion
+
+[Your conclusions will go here]

@@ -39,13 +39,146 @@
     "href": "index.html",
     "title": "Hi, I am Alix Morales!",
     "section": "",
-    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nHi, I am Alix Morales!\nAs a junior Applied Mathematics and Statistics major at Emory University, I’m passionate about leveraging data and diverse thinking to drive insights and innovation. With a mathematical background and hands-on experience in machine learning and data science, I’ve had the opportunity to work on various projects, including brain segmentation research using PyTorch and analyzing NFL injury patterns through data analysis.\nMy technical skills span shell scripting, R, Python, SQL, and Java, with emerging expertise in PyTorch and scikit-learn. I’ve applied these skills in various roles, from a Machine Learning Research Assistant position through Emory University’s Woodruff School of Nursing to a Data Science Internship at Flock Specialty Finance, where I processed and modeled over a million data entries.\nAs a QuestBridge Scholar and HSF 2024 STEM Summit Scholar, I’m committed to advocating for diverse perspectives in tech and continuous learning. I’m eager to connect with professionals in data science, machine learning, and data engineering to explore how we can bring much needed diverse perspectives into the world of analytics and machine learning.\nOn this website, you will find a selection of my projects. You will also find a blog where I publish news, updates, and anything I find interesting in the world of data. I intend to make this a place where I can share my journey in data and showcase my work in a portfolio.\nPlease feel free to contact me if you have any questions or would like to discuss potential projects."
+    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nHi, I am Alix Morales!\nAs a junior Applied Mathematics and Statistics major at Emory University, I’m passionate about leveraging data and diverse thinking to drive insights and innovation. With a mathematical background and hands-on experience in machine learning and data science, I’ve had the opportunity to work on various projects, including brain segmentation research using PyTorch and analyzing NFL injury patterns through data analysis.\nMy technical skills span shell scripting, R, Python, SQL, and Java, with emerging expertise in PyTorch and scikit-learn. I’ve applied these skills in various roles, from a Machine Learning Research Assistant position through Emory University’s Woodruff School of Nursing to a Data Science Internship at Flock Specialty Finance, where I processed and modeled over a million data entries.\nAs a QuestBridge Scholar and HSF 2024 STEM Summit Scholar, I’m committed to advocating for diverse perspectives in tech and continuous learning. I’m eager to connect with professionals in data science, machine learning, and data engineering to explore how we can bring much needed diverse perspectives into the world of analytics and machine learning.\nOn this website, you will find my blog where I publish news, updates, and anything I find interesting in the world of data. I intend to make this a place where I can share my journey in data and showcase my work in a portfolio.\nPlease feel free to contact me if you have any questions or would like to discuss potential projects."
   },
   {
     "objectID": "resume/index.html",
     "href": "resume/index.html",
     "title": "Resume",
     "section": "",
-    "text": "Below is an embedded view of my current resume. You can also download it using the link below.\n\n\n  \n     Download current Resume"
+    "text": "Below is an embedded view of my current resume. You can also download it using the button below.\n\n\n\n\n  \n     Download Resume"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to my blog! Here I share insights, updates, and interesting findings from the world of data science, machine learning, and analytics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJust One More Data Center: AI Companies’ Addiction to Brute Forcing Development\n\n\n\nmachine learning\n\n\nArtificial Intelligence\n\n\nOpinion\n\n\n\nIs AI development doomed to fail at the hands of convenience?\n\n\n\nAlix Morales\n\n\nOct 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGetting Started with Machine Learning in Healthcare\n\n\n\nmachine learning\n\n\nhealthcare\n\n\nresearch\n\n\n\nExploring the applications of machine learning in medical imaging and patient care.\n\n\n\nAlix Morales\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Analysis Techniques for Sports Analytics\n\n\n\ndata analysis\n\n\nsports\n\n\nstatistics\n\n\n\nDiving into statistical methods and data visualization for understanding sports performance.\n\n\n\nAlix Morales\n\n\nSep 22, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/posts/sports-analytics.html",
+    "href": "blog/posts/sports-analytics.html",
+    "title": "Data Analysis Techniques for Sports Analytics",
+    "section": "",
+    "text": "[This is a placeholder for your blog post content]\nSports analytics has become an essential part of modern sports, helping teams make data-driven decisions about player performance, game strategy, and injury prevention."
+  },
+  {
+    "objectID": "blog/posts/sports-analytics.html#introduction",
+    "href": "blog/posts/sports-analytics.html#introduction",
+    "title": "Data Analysis Techniques for Sports Analytics",
+    "section": "",
+    "text": "[This is a placeholder for your blog post content]\nSports analytics has become an essential part of modern sports, helping teams make data-driven decisions about player performance, game strategy, and injury prevention."
+  },
+  {
+    "objectID": "blog/posts/sports-analytics.html#key-points-to-cover",
+    "href": "blog/posts/sports-analytics.html#key-points-to-cover",
+    "title": "Data Analysis Techniques for Sports Analytics",
+    "section": "Key Points to Cover",
+    "text": "Key Points to Cover\n\nStatistical modeling for player performance\nInjury pattern analysis and prevention\nData visualization techniques\nReal-world case studies"
+  },
+  {
+    "objectID": "blog/posts/sports-analytics.html#conclusion",
+    "href": "blog/posts/sports-analytics.html#conclusion",
+    "title": "Data Analysis Techniques for Sports Analytics",
+    "section": "Conclusion",
+    "text": "Conclusion\n[Your conclusions will go here]"
+  },
+  {
+    "objectID": "blog/posts/ml-healthcare.html",
+    "href": "blog/posts/ml-healthcare.html",
+    "title": "Getting Started with Machine Learning in Healthcare",
+    "section": "",
+    "text": "[This is a placeholder for your blog post content]\nMachine learning is revolutionizing healthcare in unprecedented ways. From diagnostic imaging to personalized treatment plans, the intersection of data science and medicine offers exciting opportunities for innovation."
+  },
+  {
+    "objectID": "blog/posts/ml-healthcare.html#introduction",
+    "href": "blog/posts/ml-healthcare.html#introduction",
+    "title": "Getting Started with Machine Learning in Healthcare",
+    "section": "",
+    "text": "[This is a placeholder for your blog post content]\nMachine learning is revolutionizing healthcare in unprecedented ways. From diagnostic imaging to personalized treatment plans, the intersection of data science and medicine offers exciting opportunities for innovation."
+  },
+  {
+    "objectID": "blog/posts/ml-healthcare.html#key-points-to-cover",
+    "href": "blog/posts/ml-healthcare.html#key-points-to-cover",
+    "title": "Getting Started with Machine Learning in Healthcare",
+    "section": "Key Points to Cover",
+    "text": "Key Points to Cover\n\nApplications in medical imaging\nPredictive analytics for patient outcomes\nEthical considerations in healthcare AI\nFuture directions in the field"
+  },
+  {
+    "objectID": "blog/posts/ml-healthcare.html#conclusion",
+    "href": "blog/posts/ml-healthcare.html#conclusion",
+    "title": "Getting Started with Machine Learning in Healthcare",
+    "section": "Conclusion",
+    "text": "Conclusion\n[Your conclusions will go here]"
+  },
+  {
+    "objectID": "blog/posts/diversity-in-data-science.html",
+    "href": "blog/posts/diversity-in-data-science.html",
+    "title": "Just One More Data Center: AI Companies’ Addiction to Brute Forcing Development",
+    "section": "",
+    "text": "As more Large Language Models get squeezed out from the babymaking factory that is the world of AI, we must wonder what the hell even is AI? Is there actually such a thing as artificial intelligence? Quite frankly, AI as we know it is not AI. These large language models are simply that, large language models with massive amounts of data that make it particularly adept at predicting sequences of words. There is no intelligence to it. I was speaking to a friend the other day about AI being the biggest fraud of the decade (perhaps too harshly) and he put it quite well when he said that these AI models are fantastic linguistic achievements but that is exactly what they are. These models are not to be taken as anything else, they are remarkable innovations in the world of linguistic understanding, but intelligence they are not."
+  },
+  {
+    "objectID": "blog/posts/diversity-in-data-science.html#introduction",
+    "href": "blog/posts/diversity-in-data-science.html#introduction",
+    "title": "Just One More Data Center: AI Companies’ Addiction to Brute Forcing Development",
+    "section": "",
+    "text": "As more Large Language Models get squeezed out from the babymaking factory that is the world of AI, we must wonder what the hell even is AI?"
+  },
+  {
+    "objectID": "blog/posts/diversity-in-data-science.html#key-points-to-cover",
+    "href": "blog/posts/diversity-in-data-science.html#key-points-to-cover",
+    "title": "Just One More Data Center: AI Companies’ Addiction to Brute Forcing Development",
+    "section": "Key Points to Cover",
+    "text": "Key Points to Cover\n\nWhy diversity matters in algorithm development\nAddressing bias in machine learning models\nCreating inclusive data science communities\nPersonal experiences as a QuestBridge Scholar\nOpportunities for underrepresented groups in tech"
+  },
+  {
+    "objectID": "blog/posts/diversity-in-data-science.html#conclusion",
+    "href": "blog/posts/diversity-in-data-science.html#conclusion",
+    "title": "Just One More Data Center: AI Companies’ Addiction to Brute Forcing Development",
+    "section": "Conclusion",
+    "text": "Conclusion\n[Your conclusions will go here]"
+  },
+  {
+    "objectID": "blog/posts/diversity-in-data-science.html#what-even-is-ai",
+    "href": "blog/posts/diversity-in-data-science.html#what-even-is-ai",
+    "title": "Just One More Data Center: AI Companies’ Addiction to Brute Forcing Development",
+    "section": "",
+    "text": "As more Large Language Models get squeezed out from the babymaking factory that is the world of AI, we must wonder what the hell even is AI? Is there actually such a thing as artificial intelligence? Quite frankly, AI as we know it is not AI. These large language models are simply that, large language models with massive amounts of data that make it particularly adept at predicting sequences of words. There is no intelligence to it. I was speaking to a friend the other day about AI being the biggest fraud of the decade (perhaps too harshly) and he put it quite well when he said that these AI models are fantastic linguistic achievements but that is exactly what they are. These models are not to be taken as anything else, they are remarkable innovations in the world of linguistic understanding, but intelligence they are not."
+  },
+  {
+    "objectID": "blog/posts/diversity-in-data-science.html#so-it-isnt-actually-ai-who-cares",
+    "href": "blog/posts/diversity-in-data-science.html#so-it-isnt-actually-ai-who-cares",
+    "title": "Just One More Data Center: AI Companies’ Addiction to Brute Forcing Development",
+    "section": "So it isn’t actually AI, who cares?",
+    "text": "So it isn’t actually AI, who cares?\nThe market!"
+  },
+  {
+    "objectID": "blog/posts/diversity-in-data-science.html#on-data-centers-and-brute-forcing",
+    "href": "blog/posts/diversity-in-data-science.html#on-data-centers-and-brute-forcing",
+    "title": "Just One More Data Center: AI Companies’ Addiction to Brute Forcing Development",
+    "section": "On data centers and brute forcing",
+    "text": "On data centers and brute forcing\nSo that was my whole argument against the effectiveness of AI and my attempt to reassure you that your job will not be taken by AI and that the attempts to do so are mearly fads that will pass. Now what do we have to say about Data Centers, the crown topic of heated discussions. It appears that no community wants them, they steal power and guzzle water at a rate that rivals niagara’s output. So why the rush? Well, capitalistic ideology and greed pushes for more money. The more data centers and more power an AI company has, the more they’re worth no? It appears with every new generation of models, the number of parameters used to train that model ahs become the hallmark of performance. But, is this not, mind my language, stupid? How long can you keep throwing GPUs at the problem until it becomes simply unscalable. How much more power and you squeeze out of your models by simply brute forcing your way to a slightly better model? These LLMs do not even behave as brains do, so why have we stopped trying to make AI and pivot to an even better language predictor?\nMoney. 💰\nIt’s about money. Investors and shareholders have dumped billions of dollars into the dream of AI and with a functional product, their focus is on winning the arms race. OpenAI and Anthropic, two leading competitors are floating debt figures in the hundreds of billions and operate on losses of billions quarterly. the money has to end at some point and they need to keep their investors happy. Th issue is, with more data centers and more resources forced into the production of next generation models, the operations only get more expensive and the meager monthly charge for their “plus” services does not even scratch at the surface of the issue? Will they ever be profitable? Not if they keep throwing money and GPUs at the problem. How is it that China’s Moonchot Kimi K2 model outperforms all models on the market at the developmental cost of $5 billion USD? Quite simply, the Chinese market is focusing on innovation over profits. Kimi K2 is open source and completely free to download and use. Its goal? Is it to bankrupt America’s AI innovation? Is it to assert China’s dominance in AI? Or is it simply to create the best models freely and openly for the sake of science? Who knows, but we do know that the large players in the US market are steering a freightliner with a dying motor. That motor will dry up and if steps are not made to correct this addiction with brute frocing development, the AI bubble will collapse and with such great force."
+  },
+  {
+    "objectID": "blog/posts/diversity-in-data-science.html#true-innovations-in-the-field-of-ai",
+    "href": "blog/posts/diversity-in-data-science.html#true-innovations-in-the-field-of-ai",
+    "title": "Just One More Data Center: AI Companies’ Addiction to Brute Forcing Development",
+    "section": "True innovations in the field of AI",
+    "text": "True innovations in the field of AI"
+  },
+  {
+    "objectID": "blog/posts/diversity-in-data-science.html#so-it-isnt-actually-ai-as-we-believed-who-cares",
+    "href": "blog/posts/diversity-in-data-science.html#so-it-isnt-actually-ai-as-we-believed-who-cares",
+    "title": "Just One More Data Center: AI Companies’ Addiction to Brute Forcing Development",
+    "section": "So it isn’t actually AI as we believed, who cares?",
+    "text": "So it isn’t actually AI as we believed, who cares?\nWell these models have certainly proved useful in various applications but their capabilities are highly limited. For starters, the fears of AI leaving us jobless are exagerrated to say the least. AI tools at this stage are simply tools and not capable of replacing human work (yet). Take Deloitte’s costly mistake of using AI in their report to the Australian government as ana example. The consulting giant handed over a report with data that the AI hallucinated (made up) and had to cough up the $290k USD loss over a case of gross negligence on their end. This case was likely the result of a consultant cutting corners to meet a deadline and failing to assess the output. Yet, we are told that these models are going to take our jobs? When they are trained to predict strings of text to the users satiation, is it not reasonable to expect the model to be an incompetent employee?\nKlarna, a big player in the other massive bubble of buy-now-pay-later credit, has turned from being the “Guinea Pig” for OpenAI to searching for human talent to replace their AI customer service agents. This craze driven by pure and utter speculation is appalling and driving a trend in hiring that will fall flat as ompanies learn that these cost cutting procedures come with financial consequences. Shitty service leads to less customers which leads to less business and you guessed it, less money. Marketing divisions have switched to AI only to find their work to be lazy and uninspired, leading them to hire back experts to restore the mess. Costing them more money then if a human had been in charge all along. Sarah Skidd, a product marketing manager, recalled to the BBC that she was hired to do a job for a client that “was shelling out $2,000 for copy that likely would have ended up being far cheaper had a human just written it in the first place.”"
+  },
+  {
+    "objectID": "blog/posts/diversity-in-data-science.html#takeaways",
+    "href": "blog/posts/diversity-in-data-science.html#takeaways",
+    "title": "Just One More Data Center: AI Companies’ Addiction to Brute Forcing Development",
+    "section": "Takeaways",
+    "text": "Takeaways\nThe lesson is simple, money won’t solve your innovation problem OpenAI, Anthropic, etc. And asking the American public to subsidize your data centers that steal power and water from the public does not appear to sit well with the people. Instead of forcing power to come with scale, focus on downscaling models, making them more efficient, and actually trying to create artifical intelligence that mirrors human brains (or not that’s cool too it is scary stuff). How may they do this? Follow my blog to find out more as I will touch on this later with certain developments I believe may bear fruitful, but for now this shall do for today\n\nSources\n\nDeloitte: https://fortune.com/2025/10/07/deloitte-ai-australia-government-report-hallucinations-technology-290000-refund/\nKlarna: https://futurism.com/klarna-openai-humans-ai-back\nMarketing: https://futurism.com/companies-fixing-ai-replacement-mistakes?utm_term=Futurism%20//%2007.07.25&utm_campaign=Futurism_Actives_Newsletter&utm_source=Sailthru&utm_medium=email\nKimi: https://www.cnbc.com/2025/11/06/alibaba-backed-moonshot-releases-new-ai-model-kimi-k2-thinking.html\nLink To Try Kimi: https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
   }
 ]

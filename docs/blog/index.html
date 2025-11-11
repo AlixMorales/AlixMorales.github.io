@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Resume – Alix Morales</title>
+<title>Blog – Alix Morales</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../img/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -65,14 +67,72 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -90,11 +150,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
+    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../resume/index.html" aria-current="page"> 
+    <a class="nav-link" href="../resume/index.html"> 
 <span class="menu-text">Resume</span></a>
   </li>  
 </ul>
@@ -122,81 +182,154 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Blog</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Artificial Intelligence">Artificial Intelligence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Opinion">Opinion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data analysis">data analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="healthcare">healthcare <span class="quarto-category-count">(1)</span></div><div class="category" data-category="machine learning">machine learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="research">research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sports">sports <span class="quarto-category-count">(1)</span></div><div class="category" data-category="statistics">statistics <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Resume</h1>
-</div>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
+<p>Welcome to my blog! Here I share insights, updates, and interesting findings from the world of data science, machine learning, and analytics.</p>
 
 
-<p>Below is an embedded view of my current resume. You can also download it using the button below.</p>
-<style>
-  .pdf-container {
-    position: relative;
-    width: 100%;
-    height: 800px;
-    margin-top: 20px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    overflow: hidden;
-  }
-  
-  .pdf-container iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
-  
-  .resume-download {
-    margin-bottom: 20px;
-  }
-</style>
 
-<!-- Download button for the resume -->
-<p class="text-center">
-  <a class="btn btn-primary btn-lg resume-download" href="#" onclick="downloadResume(); return false;">
-    <i class="fa-solid fa-file-arrow-down"></i> Download Resume
-  </a>
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="machine learning,Artificial Intelligence,Opinion" data-listing-date-sort="1760500800000" data-listing-file-modified-sort="1762887999129" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1067">
+<a href="../blog/posts/diversity-in-data-science.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../blog/posts/thumbnail.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
-
-<!-- Embedded PDF viewer for the resume -->
-<div class="pdf-container">
-  <iframe src="Alix Morales Fall 2025 Resume copy.pdf#view=FitH&amp;toolbar=1&amp;navpanes=0" type="application/pdf"></iframe>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Just One More Data Center: AI Companies’ Addiction to Brute Forcing Development
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
+machine learning
 </div>
-
-<script>
-function downloadResume() {
-  const link = document.createElement('a');
-  link.href = 'Alix Morales Fall 2025 Resume copy.pdf';
-  link.download = 'Alix_Morales_Resume_Fall_2025.pdf';
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}
-</script>
-
-
-
-</main> <!-- /main -->
+<div class="listing-category" onclick="window.quartoListingCategory('Artificial Intelligence'); return false;">
+Artificial Intelligence
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Opinion'); return false;">
+Opinion
+</div>
+</div>
+<div class="card-text listing-description">
+Is AI development doomed to fail at the hands of convenience?
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Alix Morales
+</div>
+<div class="listing-date">
+Oct 15, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="machine learning,healthcare,research" data-listing-date-sort="1728964800000" data-listing-file-modified-sort="1762877397827" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
+<a href="../blog/posts/ml-healthcare.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../blog/posts/thumbnail.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Getting Started with Machine Learning in Healthcare
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
+machine learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('healthcare'); return false;">
+healthcare
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('research'); return false;">
+research
+</div>
+</div>
+<div class="card-text listing-description">
+Exploring the applications of machine learning in medical imaging and patient care.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Alix Morales
+</div>
+<div class="listing-date">
+Oct 15, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="data analysis,sports,statistics" data-listing-date-sort="1726977600000" data-listing-file-modified-sort="1762877397860" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
+<a href="../blog/posts/sports-analytics.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../blog/posts/thumbnail.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Data Analysis Techniques for Sports Analytics
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data analysis'); return false;">
+data analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('sports'); return false;">
+sports
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('statistics'); return false;">
+statistics
+</div>
+</div>
+<div class="card-text listing-description">
+Diving into statistical methods and data visualization for understanding sports performance.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Alix Morales
+</div>
+<div class="listing-date">
+Sep 22, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
