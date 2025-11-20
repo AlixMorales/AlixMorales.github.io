@@ -1,0 +1,27 @@
+---
+title: "Selective Attention and Context-Rot"
+author: "Alix Morales"
+date: "2024-11-05"
+categories: [machine learning, neural networks, research]
+image: "thumbnail.jpg"
+description: "Can machine learning models remember what they just read?"
+---
+
+## Context Windows
+What is a context window?
+
+In layman's terms, context windows are the windows that define how much input the LLM can process or even simpler its conversation or task memory. It does so by breaking input into small chunks of text known as tokens. For reference, each token is roughly 4 characters long and is a computable input that the model uses to "read." Got it? Lovely.
+
+So what is the issue?
+
+You see, these windows have exploded tremendously since the launch of the fated GPT-3. We went from a context window of 2,048 tokens to a window of 400,000 tokens with GPT-5. Take a second to process just how massive that is. These models can now retain massive amounts of data while being able to actively recall and reference any datapoint. Or so it does on paper. In practice with windows so large, the model is not able to actively remember all details and out of confusion they have the habit of generating made up facts. This act is known as hallucination and when models hallucinate, lazy college students get exposed. Jokes aside, hallucination is a massive issue with AI as the line between truth and fiction blurs. Not only do people believe the hallucinated material and do not bother researching the basis, but also the model becomes very terrible at its job. It trips itself up and becomes borderline useless, its sources sounding more like those of your crazy uncle at the Thanksgiving table. Even worse, and arguably scarier, as models get smarter and more accurate in their outputs, they also become a lot more likely to hallucinate. Like, a lot. From OpenAI's first reasoning model (o1) to the latest o3 model the rate of hallucinations DOUBLED. 
+
+https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try
+
+## Context Rot
+
+
+
+## Conclusion
+
+[Your conclusions will go here]

@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Alix Morales">
-<meta name="dcterms.date" content="2024-10-15">
-<meta name="description" content="Exploring the applications of machine learning in medical imaging and patient care.">
+<meta name="dcterms.date" content="2024-11-05">
+<meta name="description" content="Can machine learning models remember what they just read?">
 
-<title>Getting Started with Machine Learning in Healthcare – Alix Morales</title>
+<title>Selective Attention and Context-Rot – Alix Morales</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -134,17 +134,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Getting Started with Machine Learning in Healthcare</h1>
+<h1 class="title">Selective Attention and Context-Rot</h1>
   <div class="quarto-categories">
     <div class="quarto-category">machine learning</div>
-    <div class="quarto-category">healthcare</div>
+    <div class="quarto-category">neural networks</div>
     <div class="quarto-category">research</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Exploring the applications of machine learning in medical imaging and patient care.
+    Can machine learning models remember what they just read?
   </div>
 </div>
 
@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 15, 2024</p>
+      <p class="date">November 5, 2024</p>
     </div>
   </div>
   
@@ -173,19 +173,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>[This is a placeholder for your blog post content]</p>
-<p>Machine learning is revolutionizing healthcare in unprecedented ways. From diagnostic imaging to personalized treatment plans, the intersection of data science and medicine offers exciting opportunities for innovation.</p>
+<section id="context-windows" class="level2">
+<h2 class="anchored" data-anchor-id="context-windows">Context Windows</h2>
+<p>What is a context window?</p>
+<p>In layman’s terms, context windows are the windows that define how much input the LLM can process or even simpler its conversation or task memory. It does so by breaking input into small chunks of text known as tokens. For reference, each token is roughly 4 characters long and is a computable input that the model uses to “read.” Got it? Lovely.</p>
+<p>So what is the issue?</p>
+<p>You see, these windows have exploded tremendously since the launch of the fated GPT-3. We went from a context window of 2,048 tokens to a window of 400,000 tokens with GPT-5. Take a second to process just how massive that is. These models can now retain massive amounts of data while being able to actively recall and reference any datapoint. Or so it does on paper. In practice with windows so large, the model is not able to actively remember all details and out of confusion they have the habit of generating made up facts. This act is known as hallucination and when models hallucinate, lazy college students get exposed. Jokes aside, hallucination is a massive issue with AI as the line between truth and fiction blurs. Not only do people believe the hallucinated material and do not bother researching the basis, but also the model becomes very terrible at its job. It trips itself up and becomes borderline useless, its sources sounding more like those of your crazy uncle at the Thanksgiving table. Even worse, and arguably scarier, as models get smarter and more accurate in their outputs, they also become a lot more likely to hallucinate. Like, a lot. From OpenAI’s first reasoning model (o1) to the latest o3 model the rate of hallucinations DOUBLED.</p>
+<p>https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try</p>
 </section>
-<section id="key-points-to-cover" class="level2">
-<h2 class="anchored" data-anchor-id="key-points-to-cover">Key Points to Cover</h2>
-<ul>
-<li>Applications in medical imaging</li>
-<li>Predictive analytics for patient outcomes</li>
-<li>Ethical considerations in healthcare AI</li>
-<li>Future directions in the field</li>
-</ul>
+<section id="context-rot" class="level2">
+<h2 class="anchored" data-anchor-id="context-rot">Context Rot</h2>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
