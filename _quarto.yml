@@ -2,16 +2,16 @@
 
 # website settings
 website:
-  title: "Alix Morales"                                # Your name
   description: "Applied Mathematics at Emory University"   # A brief slogan (optional)
   image: img/ProfilePic.jpeg
   
-  favicon: img/favicon.png
+  favicon: img/pxArt.png
   
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true
-    logo: /img/logo.png
+    logo: /img/name_plate_3.png
+    title: false
     
     # your sub-pages
     left:

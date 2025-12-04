@@ -1,0 +1,24 @@
+---
+title: "My Data Story"
+author: "Alix Morales"
+date: "2025-09-22"
+categories: [data analysis, sports, statistics]
+image: "../honus_t206.jpg"
+description: "How did I get into data?"
+---
+
+![Featured Image: Honus Wagner t206 card (The Mona Lisa of Baseball Cards)](../honus_t206.jpg){fig-align="center" width="40%" fig-alt="Alternative text for accessibility"}
+
+## Book Nerd Beginnings
+My data origin story is quite interesting as it came as a result of my love for sports (in particular baseball) and my love for reading. I was in second grade and probably seven or eight years old when I left the library with a cool book. It was themed on baseball and so I was like, why not combine to of my favorite things? Books opened me to worlds of possibilities which I could never be exposed to. Whether the stories took place in the past or in fantastical universes different to ours, I learned a lot of new things. In this instance, I got to learn about baseball cards. The story, in brief, told the stroy of a kid who could travel through time through baseball cards to the time era of the card. In this specific book, he acquired the worlds rarest baseball card (known as our Mona Lisa) and through it travelled back to 1910. 
+
+I finished the book in around 2 days and, by the end of the week, I found myself at Target with all of my birthday money in baseball cards. There is something so satisfying about ripping through wax in the hopes of finding a card of value that nothing else can replicate. After every pack, I would take a look at my players and their statistics on the back. Comparing players, I would create rosters and teams from the players whose stats were the best and eventually play games based off picking statistics from defensive and offensive players a la Pokemon in a dueling manner.
+
+
+## Family Computer and Baseball Reference 
+Shortly after, my family got a new computer. Finally, we had a computer that came from after the post dot-com bubble. I could finally search up what the unknown statistics were! I discovered sites like Baseball Almanac and Baseball Reference which were full with just about every statistic recorded in the game and just about all of baseball history. As you can imagine, I spent hours upon hours learning about players, seasons, and advanced statistics. I had memorized so many statistics that I myself became an encyclopedia of sorts. My obsession continued over the years and although it waned at some point, my passion for collecting baseball cards remained. 
+
+Nowadays I cannot bring myself to purchase valuable cards but I do own a T206 card made from 1909 to 1912. These cards are known as some of the most desirable sports cards in history. My card is not worth more than $40 but it is from the same type of card as the one in the book that started it all. A tribute to where my collecting frenzy began and a look into the past that created my data future.
+
+
+

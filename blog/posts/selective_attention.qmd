@@ -1,11 +1,13 @@
 ---
 title: "Selective Attention and Context-Rot"
 author: "Alix Morales"
-date: "2024-11-05"
+date: "2025-11-05"
 categories: [machine learning, neural networks, research]
-image: "thumbnail.jpg"
+image: "../window-with-potted-plants.svg"
 description: "Can machine learning models remember what they just read?"
 ---
+
+![A window to represent our context windows](../window-with-potted-plants.svg){fig-align="center" width="50%" fig-alt="A window to represent our context windows"}
 
 ## Context Windows
 What is a context window?
@@ -16,12 +18,15 @@ So what is the issue?
 
 You see, these windows have exploded tremendously since the launch of the fated GPT-3. We went from a context window of 2,048 tokens to a window of 400,000 tokens with GPT-5. Take a second to process just how massive that is. These models can now retain massive amounts of data while being able to actively recall and reference any datapoint. Or so it does on paper. In practice with windows so large, the model is not able to actively remember all details and out of confusion they have the habit of generating made up facts. This act is known as hallucination and when models hallucinate, lazy college students get exposed. Jokes aside, hallucination is a massive issue with AI as the line between truth and fiction blurs. Not only do people believe the hallucinated material and do not bother researching the basis, but also the model becomes very terrible at its job. It trips itself up and becomes borderline useless, its sources sounding more like those of your crazy uncle at the Thanksgiving table. Even worse, and arguably scarier, as models get smarter and more accurate in their outputs, they also become a lot more likely to hallucinate. Like, a lot. From OpenAI's first reasoning model (o1) to the latest o3 model the rate of hallucinations DOUBLED. 
 
-https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try
 
 ## Context Rot
+So, models are hallucinating a lot and this is an issue since their output is not reliable and possibly made up. This is part of the issue that the idea of context rot gets at. Hong et al. write that as the length of the input context increases, the performance of models decreases. This effect is only amplified when the number of "distractors" in the the prompt increases. What's a distractor? in this case, when we are searching for a fact in a corpus of text, it would be a similarly worded piece of text that may confuse the model if it does not read carefully or consider context. Personally, this was a huge concern for a research project that I did with commercial LLMs in the legal field. With legal provisions necessitating an understanding of legal jargon and the sheer amount of similarly worded text in laws, context rot becomes a real challenge when analyzing large legal texts. Imagine how context rot may affect large companies that use LLMs to replace workers. The performance costs may be very detrimental!
 
 
+## Takeaways
+The clear takeaway here is that LLMs struggle to understand what they're given when the input is quite large. This idea of context rot can be readily applied in the professional world, with a decrease in performance when tasked with larger projects. LLMs excel at precise readings and instruction while struggling to handle large tasks. As we have them currently, no AI model is capable of fully replacing human workers in the workforce. Professionals and executives will soon realize that this mass replacement trend is a fad that will pass and that AI will be understood to be an important tool in the workflow of many professionals. 
 
-## Conclusion
 
-[Your conclusions will go here]
+### Sources
+- [Hallucination: AI hallucinates more frequently as it gets more advanced](https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try)
+- [Context Rot Research](https://research.trychroma.com/context-rot)

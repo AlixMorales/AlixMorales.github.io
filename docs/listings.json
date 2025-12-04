@@ -2,9 +2,9 @@
   {
     "listing": "/blog/index.html",
     "items": [
-      "/blog/posts/just-one-more-data-center.html",
       "/blog/posts/selective_attention.html",
-      "/blog/posts/sports-analytics.html"
+      "/blog/posts/just-one-more-data-center.html",
+      "/blog/posts/my-story.html"
     ]
   }
 ]

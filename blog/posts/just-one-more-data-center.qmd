@@ -31,8 +31,8 @@ The lesson is simple, money won't solve your innovation problem OpenAI, Anthropi
 
 
 ### Sources
-- Deloitte: https://fortune.com/2025/10/07/deloitte-ai-australia-government-report-hallucinations-technology-290000-refund/
-- Klarna: https://futurism.com/klarna-openai-humans-ai-back
-- Marketing: https://futurism.com/companies-fixing-ai-replacement-mistakes?utm_term=Futurism%20//%2007.07.25&utm_campaign=Futurism_Actives_Newsletter&utm_source=Sailthru&utm_medium=email
-- Kimi: https://www.cnbc.com/2025/11/06/alibaba-backed-moonshot-releases-new-ai-model-kimi-k2-thinking.html
-- Link To Try Kimi: https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905
+- [Deloitte AI Report Refund](https://fortune.com/2025/10/07/deloitte-ai-australia-government-report-hallucinations-technology-290000-refund/)
+- [Klarna Replacing AI with Humans](https://futurism.com/klarna-openai-humans-ai-back)
+- [Companies Fixing AI Replacement Mistakes](https://futurism.com/companies-fixing-ai-replacement-mistakes?utm_term=Futurism%20//%2007.07.25&utm_campaign=Futurism_Actives_Newsletter&utm_source=Sailthru&utm_medium=email)
+- [Alibaba-backed Moonshot Releases Kimi K2 Model](https://www.cnbc.com/2025/11/06/alibaba-backed-moonshot-releases-new-ai-model-kimi-k2-thinking.html)
+- [Try Kimi K2 on Hugging Face](https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905)

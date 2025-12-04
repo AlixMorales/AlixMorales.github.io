@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Alix Morales">
-<meta name="dcterms.date" content="2024-11-05">
+<meta name="dcterms.date" content="2025-11-05">
 <meta name="description" content="Can machine learning models remember what they just read?">
 
-<title>Selective Attention and Context-Rot – Alix Morales</title>
+<title>Selective Attention and Context-Rot</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../img/favicon.png" rel="icon" type="image/png">
+<link href="../../img/pxArt.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -80,10 +80,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../img/logo.png" alt="" class="navbar-logo">
-    </a>
-    <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Alix Morales</span>
+    <img src="../../img/name_plate_3.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -128,9 +125,10 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -161,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 5, 2024</p>
+      <p class="date">November 5, 2025</p>
     </div>
   </div>
   
@@ -173,22 +171,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="../window-with-potted-plants.svg" class="img-fluid figure-img" style="width:50.0%" alt="A window to represent our context windows"></p>
+<figcaption class="margin-caption">A window to represent our context windows</figcaption>
+</figure>
+</div>
 <section id="context-windows" class="level2">
 <h2 class="anchored" data-anchor-id="context-windows">Context Windows</h2>
 <p>What is a context window?</p>
 <p>In layman’s terms, context windows are the windows that define how much input the LLM can process or even simpler its conversation or task memory. It does so by breaking input into small chunks of text known as tokens. For reference, each token is roughly 4 characters long and is a computable input that the model uses to “read.” Got it? Lovely.</p>
 <p>So what is the issue?</p>
 <p>You see, these windows have exploded tremendously since the launch of the fated GPT-3. We went from a context window of 2,048 tokens to a window of 400,000 tokens with GPT-5. Take a second to process just how massive that is. These models can now retain massive amounts of data while being able to actively recall and reference any datapoint. Or so it does on paper. In practice with windows so large, the model is not able to actively remember all details and out of confusion they have the habit of generating made up facts. This act is known as hallucination and when models hallucinate, lazy college students get exposed. Jokes aside, hallucination is a massive issue with AI as the line between truth and fiction blurs. Not only do people believe the hallucinated material and do not bother researching the basis, but also the model becomes very terrible at its job. It trips itself up and becomes borderline useless, its sources sounding more like those of your crazy uncle at the Thanksgiving table. Even worse, and arguably scarier, as models get smarter and more accurate in their outputs, they also become a lot more likely to hallucinate. Like, a lot. From OpenAI’s first reasoning model (o1) to the latest o3 model the rate of hallucinations DOUBLED.</p>
-<p>https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try</p>
 </section>
 <section id="context-rot" class="level2">
 <h2 class="anchored" data-anchor-id="context-rot">Context Rot</h2>
+<p>So, models are hallucinating a lot and this is an issue since their output is not reliable and possibly made up. This is part of the issue that the idea of context rot gets at. Hong et al.&nbsp;write that as the length of the input context increases, the performance of models decreases. This effect is only amplified when the number of “distractors” in the the prompt increases. What’s a distractor? in this case, when we are searching for a fact in a corpus of text, it would be a similarly worded piece of text that may confuse the model if it does not read carefully or consider context. Personally, this was a huge concern for a research project that I did with commercial LLMs in the legal field. With legal provisions necessitating an understanding of legal jargon and the sheer amount of similarly worded text in laws, context rot becomes a real challenge when analyzing large legal texts. Imagine how context rot may affect large companies that use LLMs to replace workers. The performance costs may be very detrimental!</p>
 </section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>[Your conclusions will go here]</p>
+<section id="takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="takeaways">Takeaways</h2>
+<p>The clear takeaway here is that LLMs struggle to understand what they’re given when the input is quite large. This idea of context rot can be readily applied in the professional world, with a decrease in performance when tasked with larger projects. LLMs excel at precise readings and instruction while struggling to handle large tasks. As we have them currently, no AI model is capable of fully replacing human workers in the workforce. Professionals and executives will soon realize that this mass replacement trend is a fad that will pass and that AI will be understood to be an important tool in the workflow of many professionals.</p>
+<section id="sources" class="level3">
+<h3 class="anchored" data-anchor-id="sources">Sources</h3>
+<ul>
+<li><a href="https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try">Hallucination: AI hallucinates more frequently as it gets more advanced</a></li>
+<li><a href="https://research.trychroma.com/context-rot">Context Rot Research</a></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -20,13 +20,13 @@ about:
 
 # Hi, I am Alix Morales!
 
-As a junior Applied Mathematics and Statistics major at Emory University, I'm passionate about leveraging data and diverse thinking to drive insights and innovation. With a mathematical background and hands-on experience in machine learning and data science, I've had the opportunity to work on various projects, including brain segmentation research using PyTorch and analyzing NFL injury patterns through data analysis.
 
-My technical skills span shell scripting, R, Python, SQL, and Java, with emerging expertise in PyTorch and scikit-learn. I've applied these skills in various roles, from a Machine Learning Research Assistant position through Emory University's Woodruff School of Nursing to a Data Science Internship at Flock Specialty Finance, where I processed and modeled over a million data entries.
+Alix is a senior majoring in applied math and statistics. As a former athlete, he developed a passion for sports statistics, which led him down the path of data science. He is passionate about machine learning, AI, and its legal implications. From his experience creating mathematical models to drive smarter financial investments to his experience assisting in the classroom, he counts on a deep understanding of data science principles. 
 
-As a QuestBridge Scholar and HSF 2024 STEM Summit Scholar, I'm committed to advocating for diverse perspectives in tech and continuous learning. I'm eager to connect with professionals in data science, machine learning, and data engineering to explore how we can bring much needed diverse perspectives into the world of analytics and machine learning.
+As a data science intern at Flock Specialty Finance, he utilized mathematical models to enhance the evaluation of potential investment portfolios. Following this experience, he drafted a quantitative report on NFL injury data, alongside a peer and a professor from Emory University, identifying potential factors that affect injury rates. Since then, he has partnered with a researcher at Emory University to work on an entry for a machine learning brain segmentation challenge, utilizing packages such as Monai and scikit-learn.
 
-On this website, you will find my blog where I publish news, updates, and anything I find interesting in the world of data. I intend to make this a place where I can share my journey in data and showcase my work in a portfolio.
+As a teaching assistant for Emory University’s data science computing course, he developed the ability to break down fundamental data science and computing principles for students. Currently, he serves as a data analytics intern at The Carter Center, where he works on identifying potential use cases for large language models in legal analysis. On campus, Alix is a member of Emory’s Questbridge Scholar Network and an executive board member for Emory Black and Latin in STEM (BLIS). Alix enjoys spending time outdoors and strumming his guitar in his free time. Specifically, he enjoys playing baseball on the Emory Club Baseball team and roaming through the woods.
+
 
 Please feel free to [contact me](mailto:amora38@emory.edu) if you have any questions or would like to discuss potential projects.
 
