@@ -5,7 +5,7 @@ excerpt: My Current Resume
 execute:
   freeze: true  # prevent re-rendering during project render
 resources:
-  - "Alix Morales Fall 2025 Resume copy.pdf"
+  - "Alix Morales Winter 2025 Resume.pdf"
 ---
 
 Below is an embedded view of my current resume. You can also download it using the button below.
@@ -42,14 +42,14 @@ Below is an embedded view of my current resume. You can also download it using t
 
 <!-- Embedded PDF viewer for the resume -->
 <div class="pdf-container">
-  <iframe src="Alix Morales Fall 2025 Resume copy.pdf#view=FitH&toolbar=1&navpanes=0" type="application/pdf"></iframe>
+  <iframe src="Alix Morales Winter 2025 Resume.pdf#view=FitH&toolbar=1&navpanes=0" type="application/pdf"></iframe>
 </div>
 
 <script>
 function downloadResume() {
   const link = document.createElement('a');
-  link.href = 'Alix Morales Fall 2025 Resume copy.pdf';
-  link.download = 'Alix_Morales_Resume_Fall_2025.pdf';
+  link.href = 'Alix Morales Winter 2025 Resume.pdf';
+  link.download = 'Alix_Morales_Resume_Winter_2025.pdf';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
